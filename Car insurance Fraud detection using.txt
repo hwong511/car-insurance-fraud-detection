@@ -1,0 +1,24 @@
+Car insurance Fraud detection using image classification:
+
+This project investigates the use of image based machine learning models to detect potential car insurance fraud using a labeled dataset
+This project involves 2 different models to investigate:
+- An off the shelf model 
+- A model that was custom made from the ground up in R
+
+Dataset:
+
+The dataset also includes a training and testing split with each having 2 labels of Fraud or non-fraud. This dataset makes it ideal for building, fine-tuning, and evaluating machine learning models. 
+
+Applications:
+Car insurance fraud detection
+
+Research in image-based anomaly detection
+
+Educational projects in computer vision and ethics
+
+Insurance claim validation automation
+
+Note: The dataset supports research, analytics, and educational efforts in fraud prevention and insurance claim validation. 
+
+Models:
+
