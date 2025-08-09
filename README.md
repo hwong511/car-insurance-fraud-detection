@@ -21,9 +21,9 @@ Insurance fraud costs billions annually, with image evidence often central to in
 ---
 
 ## Dataset
-Source: [Car Insurance Fraud Detection (Kaggle)](https://www.kaggle.com/datasets/pacificrm/car-insurance-fraud-detection)  
+**Source**: [Car Insurance Fraud Detection (Kaggle)](https://www.kaggle.com/datasets/pacificrm/car-insurance-fraud-detection)  
 
-Contents:
+**Contents**:
 - Images of car damage claims
 - Labels: `Fraud` or `Non-fraud`
 - Separate train and test splits
@@ -73,7 +73,7 @@ Refer to the dataset’s [Kaggle license](https://www.kaggle.com/datasets/pacifi
 
 ---
 
-## ✏️ Authors
-- [Andy Vo]
-- [Dusk Zhang]
-- [Ho Wong]
+## Authors
+- Andy Vo
+- Dusk Zhang
+- Ho Wong
