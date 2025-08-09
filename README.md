@@ -44,7 +44,7 @@ Contents:
 
 ---
 
-## 📊 Results
+## Results
 | Model                  | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |------------------------|----------|-----------|--------|----------|---------|
 | ViT (Class Weights)    | 98.16%   | 0.9589    | 0.7527 | 0.8434   | 0.9693  |
