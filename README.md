@@ -4,8 +4,8 @@
 This project investigates the use of **image-based machine learning models** to detect potential car insurance fraud from damage photographs. The dataset is highly imbalanced, with far fewer fraudulent cases than non-fraudulent ones, making imbalance handling a key challenge.
 
 Two approaches were compared:
-1. **Off-the-shelf model** – Based on [ViT Base Patch16-224](https://huggingface.co/google/vit-base-patch16-224) from Hugging Face, using **class weights** to address class imbalance.
-2. **Custom-built model** – Designed from scratch in R, using **both class weights and image augmentation** to mitigate imbalance and improve generalization.
+1. **Off-the-shelf model** – Based on [ViT Base Patch16-224](https://huggingface.co/google/vit-base-patch16-224) from Hugging Face, using **class weights** to address class imbalance (see classweight-only)
+2. **Custom-built model** – Designed from scratch in Python, using **both class weights and image augmentation** to mitigate imbalance and improve generalization.
 
 This comparison highlights the impact of different imbalance-handling strategies on model performance.
 
