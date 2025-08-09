@@ -5,7 +5,7 @@ This project investigates the use of **image-based machine learning models** to 
 
 Two approaches were compared:
 1. **Off-the-shelf model** – Based on [ViT Base Patch16-224](https://huggingface.co/google/vit-base-patch16-224) from Hugging Face, using **class weights** to address class imbalance (see classweight-only)
-2. **Custom-built model** – Designed from scratch in Python, using **both class weights and image augmentation** to mitigate imbalance and improve generalization.
+2. **Custom-built model** – Designed from scratch in Python, using **both weighted sampling and image augmentation** to mitigate imbalance and improve generalization. Tuned multiple hyperparameters to seek for better performance
 
 This comparison highlights the impact of different imbalance-handling strategies on model performance.
 
@@ -40,7 +40,7 @@ Insurance fraud costs billions annually, with image evidence often central to in
 
 ## Models
 - **Off-the-shelf Model (ViT)** – Pretrained Vision Transformer, fine-tuned with class weights for imbalance handling
-- **Custom Model** – CNN built in Python, trained with class weights and image augmentation for more robust learning
+- **Custom Model** – CNN built in Python, trained with filtered and pre-tuned hyperparameters, and image augmentation for more robust learning
 
 ---
 
@@ -48,7 +48,7 @@ Insurance fraud costs billions annually, with image evidence often central to in
 | Model                  | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |------------------------|----------|-----------|--------|----------|---------|
 | ViT (Class Weights)    | 98.16%   | 0.9589    | 0.7527 | 0.8434   | 0.9693  |
-| Custom CNN (CW + Aug)  | XX.XX%   | 0.XXXX    | 0.XXXX | 0.XXXX   | 0.XXXX  |
+| Custom CNN (CW + Aug)  | 95.83%   | 0.9953    | 0.9599 | 0.9773   | 0.9815  |
 
 ---
 
